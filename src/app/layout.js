@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossOrigin="anonymous"
         />
-        <title></title>
+        <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
       </head>
       <body className={inter.className}>{children}</body>
